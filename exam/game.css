@@ -1,0 +1,50 @@
+body{
+    /* background-color:#FFF002; */
+    display: flex;
+    flex-direction: column;   
+    margin: 0;
+    align-items: center;
+}
+
+.choices{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.display-3{
+    margin-bottom: 70px;
+}
+
+.choices button{
+    font-size:7rem;
+    min-width: 160px;
+    border-radius: 250px;
+    margin: 0 10px;
+    background-color: #794919;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.choices button:hover{
+    background-color: #FFF002;
+}
+#playerdisplay,
+#computerdisplay{
+    font-size: 30px;
+}
+
+
+
+.good,
+#playerscore{
+    color: green;
+}
+
+.bad,
+#computerscore{
+    color:red
+}
+#result{
+    font-size:300px;
+    margin: 30px ;
+}
